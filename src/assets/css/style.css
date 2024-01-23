@@ -47,8 +47,6 @@ section {
     text-align: center;
 }
 
-
-
 .container {
     padding: 20px;
     
@@ -318,7 +316,7 @@ section {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 8px 0px;
     border-radius: 50px;
 }
@@ -337,7 +335,146 @@ section {
     margin-bottom: 30px;
 }
 
+.location_text {
+    margin-left: 180px;
+    text-align: initial;
+}
 
 
 
+
+
+
+
+
+.banner_taital{
+    width: 100%;
+    float: left;
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner_text {
+    width: 85%;
+    float: left;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.buy_bt {
+    width: 170px;
+    float: left;
+    margin-top: 50px;
+}
+.buy_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ebc30a;
+    text-align: center;
+    padding: 10px 0px;
+}
+.buy_bt a:hover {
+    color: #ffffff;
+    background-color: #ebc30a;
+}
+.read_bt {
+    width: 170px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+
+    text-align: center;
+    padding: 10px 0px;
+}
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #ebc30a;
+}
+
+.image_111 {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.arrival_section .heading_container {
+    color: #002c3e;
+    margin-bottom: 10px;
+  }
+  
+  .arrival_section .box {
+    padding: 120px 45px;
+    position: relative;
+  }
+  
+  .arrival_section .arrival_bg_box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+  }
+  
+  .arrival_section .arrival_bg_box img {
+      width: 50%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: top left;
+      object-position: top left;
+  }
+  
+  .arrival_section a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .arrival_section a:hover {
+    background-color: transparent;
+    color: #f7444e;
+  }
+  
+
+
+  img.img-fluid.abouting1 {
+    height: 500px;
+}
+
+
+input.email-bt1 {
+    width: 100px;
+}
+
+
+/* accordion */
+section.accordion123 { 
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: 325px;
+    margin-bottom: 50px;
+}
+
+
+p.shopdetail12 {
+    text-align: justify;
+}
+
+.lefty {
+    text-align: left;
+}
 

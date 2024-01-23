@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
@@ -10,6 +11,8 @@ import { ShopListPageComponent } from './components/shop-list-page/shop-list-pag
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { FooterComponent } from './components/common-pages/footer/footer.component';
 import { NavBarComponent } from './components/common-pages/nav-bar/nav-bar.component';
+import {HttpClientModule} from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { NavBarComponent } from './components/common-pages/nav-bar/nav-bar.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
