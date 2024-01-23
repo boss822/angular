@@ -13,6 +13,9 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
     this.productListApi()
   }
+
+  productData=[]
+
   productListApi(){
     this.http.get('./assets/json/product.json').subscribe(data=>{
       console.log(data)
