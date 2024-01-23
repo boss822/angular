@@ -14,13 +14,23 @@ export class HomePageComponent implements OnInit {
     this.productListApi()
   }
 
-  productData=[]
+  productData:any=[]
 
   productListApi(){
     this.http.get('./assets/json/product.json').subscribe(data=>{
       console.log(data)
+      this.productData = data
 
     })
+  }
+
+  productGet(id) {
+    for(let i=0;i<this.productData.length; i++){
+      var data=this.productData[i]
+      if(data.id==id){
+        console.log(data)
+      }
+    }
   }
 
 }

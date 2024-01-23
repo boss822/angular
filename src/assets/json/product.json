@@ -4,7 +4,7 @@
         "productName":"Juicy Tomato",
         "productQuantity":"1 KG",
         "productDescription":"Juicy and vibrant, our tomatoes are the essence of freshness!",
-        "salePrice":"1.5" ,
+        "salePrice":"$ 1.5" ,
         "productImage":"./assets/image/img-4.png"
     },
 
@@ -13,7 +13,7 @@
         "productName":"Green Cabbage",
         "productQuantity":"1 KG",
         "productDescription":"Crunch into health with our crisp and fresh cabbage!",
-        "salePrice":"3.4" ,
+        "salePrice":"$ 3.4" ,
         "productImage":"./assets/image/img-5.png"
     },
 
@@ -22,7 +22,7 @@
         "productName":"Premium Eggplant",
         "productQuantity":"1 kG",
         "productDescription":"Embrace the rich flavors with our premium eggplants!",
-        "salePrice":"2.4" ,
+        "salePrice":"$ 2.4" ,
         "productImage":"./assets/image/img-6.png"
     },
 
@@ -31,7 +31,7 @@
         "productName":"Lady-finger",
         "productQuantity":"1 KG",
         "productDescription":"Grab a bunch and add a dash of nutrition to your meals! ",
-        "salePrice":"1.2" ,
+        "salePrice":"$ 1.2" ,
         "productImage":"./assets/image/img-7.png"
     },
 
@@ -40,7 +40,7 @@
         "productName":"Delicious Potato",
         "productQuantity":"KG",
         "productDescription":"elevate your recipes with our quality potatoes!",
-        "salePrice":"0.7" ,
+        "salePrice":"$ 0.7" ,
         "productImage":"./assets/image/img-8.png"
     },
 
@@ -49,7 +49,7 @@
         "productName":"Spicy Green chilli",
         "productQuantity":"1 KG",
         "productDescription":"Spice up your meals with our Capsicum",
-        "salePrice":"3.4" ,
+        "salePrice":"$ 3.4" ,
         "productImage":"./assets/image/img-9.png"
     }
 
