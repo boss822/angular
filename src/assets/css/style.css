@@ -96,16 +96,7 @@ section {
 
 }
 
-.containerfounder{
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin-top: 10px;
-}
 
-.founder{
-    margin-bottom: 10px;
-    background-color: rgb(255, 255, 255);
-}
 
 .back{
     background-color: rgb(42, 28, 0);
@@ -182,10 +173,13 @@ section {
     float: left;
     background-color: #ffffff;
     height: auto;
-    border: 2px;
-    border-style: dotted;
+    
     padding: 20px 0px;
     margin-bottom: 30px;
+
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #89d6b8;
 }
 .image_4 {
     width: 100%;
@@ -476,5 +470,49 @@ p.shopdetail12 {
 
 .lefty {
     text-align: left;
+}
+
+
+div.about-border{
+    border-left: 5px solid #90da2f ;
+}
+
+
+.containerfounder{
+    border: 5px solid #90da3f;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: ridge;
+
+}
+
+.founder{
+    
+    background-color: rgb(51 231 16 / 47%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.rowabout{
+   
+        margin-bottom: 20px;
+    
+}
+
+section.ban {
+    background-color: rgb(51 231 16 / 47%);
+}
+
+.sectionall{
+    background-color: rgb(51 231 16 / 47%);
+}
+
+.vegetables_section {
+   background-color: rgb(175 255 160 / 89%);
+}
+
+h1.about_taital {
+    margin-bottom: 20px;
 }
 
